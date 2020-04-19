@@ -34,6 +34,17 @@
             <version>1.2</version>
             <scope>runtime</scope>
         </dependency>
+        <!--SLF4j-->
+        <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-log4j12</artifactId>
+        <version>1.7.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.0.1.RELEASE</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -66,6 +77,7 @@
                     <path>/${project.artifactId}</path>
                 </configuration>
             </plugin>-->
+
         </plugins>
     </build>
 </project>
